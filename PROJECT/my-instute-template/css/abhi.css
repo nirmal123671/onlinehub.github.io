@@ -1,0 +1,338 @@
+.abhi {
+	font-family: "Open Sans";
+}
+
+.abhi .nav-tabs { 
+    border-bottom: 2px solid #DDD; 
+}
+.abhi .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { 
+    border-width: 0;	
+}
+.abhi .nav.nav-tabs>li>a:hover, .nav.tabs-vertical>li>a:hover {
+    color: #1565C0!important;
+}
+.abhi .nav-tabs > li > a { 
+    border: none; 
+	color: #1565C0!important;
+}
+
+.abhi .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .tabs-vertical>li.active>a, .tabs-vertical>li.active>a:focus, .tabs-vertical>li.active>a:hover {
+    color:#1565C0!important;
+}
+
+.abhi .nav>li>a i {
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.abhi .nav-tabs > li > a::after { 
+    content: ""; 
+	background: #1565C0; 
+	height: 2px; 
+	position: absolute; 
+	width: 100%; 
+	left: 0px; 
+	bottom: -1px; 
+	transition: all 250ms ease 0s; 
+	transform: scale(0);
+}
+.abhi .nav-tabs > li.active > a::after, .nav-tabs > a::after { 
+   transform: scale(1);
+}
+.abhi .tab-nav > li > a::after { 
+   background: ##5a4080 none repeat scroll 0% 0%; 
+   color: #fff; 
+}
+.abhi .tab-content{
+	padding:20px;
+	background: #f2f3f5;
+}
+.abhi .nav-tabs > li  {
+	width:20%; 
+	text-align:center;
+}
+.abhi .card {
+	background: #FFF none repeat scroll 0% 0%;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); 
+}
+.abhi body{ 
+    background: #EDECEC; 
+	padding:50px;
+}
+
+.abhi .container-fluid {
+	padding:0;
+}
+
+
+.abhi .ab-1 .a {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid #DEDFE0;
+}
+
+.abhi .ab-1 .a h3 {
+    font-size: 19px;
+    line-height: 1.47em;
+    font-weight: 700;
+}
+
+.abhi .ab-1 .a .ac p {
+    font-size: 15px;
+}
+
+.abhi .ab-1 .a .ac h4 {
+    font-size: 15px;
+	font-weight:600;
+}
+
+.abhi .ab-1 .a .ac ul {
+    font-size: 15px;
+}
+
+.abhi .ab-1 .a .ac ul li {
+    list-style: disc;
+}
+
+.abhi .ab-1 .a .avf button {
+    padding:10px 0;
+}
+
+.abhi .ab-1 .a .avf button:hover {
+    text-decoration: none;
+}
+
+.abhi .ab-1 .a .aki {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.abhi .ab-1 .a .aki img {
+    border-radius: 50%;
+}
+
+.abhi .ab-1 .a .jhg {
+    flex: 1;
+    min-width: 1px;
+    margin-left: 24px;
+	position: relative;
+    top: 3px;
+}
+
+.abhi .ab-1 .a .jhg a {
+    font-size: 19px;
+    line-height: 1.47em;
+    font-weight: 700;
+    color: #505763;
+    text-decoration: none!important;
+}
+
+.abhi .ab-1 .a .alk a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.47em;
+    background: #DEDFE0;
+    color: #FFF;
+    padding: 5px 0;
+}
+
+.abhi .ab-1 .a .alk a:hover {
+	background: #505763;
+}
+
+.abhi .ab-1 .a .jhj {
+    padding-top: 25px;
+}
+
+.abhi .ab-1 .a .jhj p {
+    font-size:13px;
+}
+
+.abhi .ab-2 .accordion {
+	margin-top: 21px;
+    background-color: #FFF;
+    border-radius: 2px;
+    position: relative;
+    border: none;
+    box-shadow: none;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    font-size: 15px;
+    transition: 0.4s;
+	text-align: left;
+}
+
+.abhi .ab-2 .accordion .pull-left {
+    padding-top: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.abhi .ab-2 .active, .accordion:hover {
+  background-color: #FFF; 
+}
+
+.abhi .ab-2 .panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 0;
+  padding-bottom: 12px;
+}
+
+.abhi .ab-2 .panel .ikon {
+    height: 20px;
+    width: 20px;
+    font-size: 9px;
+    background: #FFF;
+    border: 2px solid #e4e6ea;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2px 1px 2px 5px;
+    order: 1;
+    margin-right: 10px;
+    color: #686F7A!important;
+}
+
+.abhi .ab-2 .panel li {
+    color: #686F7A;
+    border-top: 1px solid #F2F3F5;
+    padding: 12px 0;
+	position:relative;
+}
+
+.abhi .ab-2 .panel li a {
+    color: #686F7A!important;
+}
+
+.abhi .ab-2 .panel .ikoon input {
+    position: relative;
+    top: 2px;
+}
+
+.abhi .ab-2 .panel .ikoon {
+    position: relative;
+    top: 2px;
+}
+
+.abhi .ab-3 .ak .aki {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.abhi .ab-3 .ak .aki .akip {
+    display: flex;
+}
+
+.abhi .ab-3 .ak .aki .d {
+    padding: 30px;
+}
+
+.abhi .ab-3 .ak .aki .d .akipt .javaa {
+    font-size: 25px;
+}
+
+.abhi .ab-3 .ak .aki .d .akipt p {
+    margin-bottom: 30px;
+}
+
+.abhi .ab-3 .ak .aki .d .akipt .jhg input {
+    width: 100%;
+    height: 45px;
+    margin-top: 9px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.abhi .ab-3 .ak .aki .dfd {
+    padding-top: 24px;
+}
+
+.abhi .ab-3 .ak .aki img {
+    border-radius: 50%;
+}
+
+.abhi .ab-3 .ak .jhg {
+    flex: 1;
+    min-width: 1px;
+    margin-left: 24px;
+	position: relative;
+    top: 3px;
+}
+
+.abhi .ab-3 .ak .jhg a {
+    font-size: 19px;
+    line-height: 1.47em;
+    font-weight: 700;
+    color: #505763;
+    text-decoration: none!important;
+}
+
+.abhi .ab-3 .ak {
+    padding: 0 35px;
+}
+
+.abhi .ab-3 .ak .aki {
+    padding: 10px 15px;
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+    background: #fff;
+}
+
+.abhi .ab-3 .ak .aki .d .akipt .puy {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.abhi .ab-3 .ak .aki .d .akipt .puys {
+    padding-top: 30px;
+}
+
+@media all and (max-width:724px){
+	
+.abhi .ab-3 .ak {
+    padding: 0;
+}
+
+.abhi .ab-3 .ak .aki .akip:nth-child(2) {
+    display: block;
+}
+	
+.abhi .nav-tabs > li > a > span {
+	display:none;
+}	
+.abhi .nav-tabs > li > a {
+	padding: 5px 5px;
+	font-size: 8px;
+}
+.abhi .nav-tabs > li {
+    width: 33%;
+}
+.header--course-dashboard-header-row--2SJjM {
+    margin-top: -8px;
+}
+
+
+
+
+
+
+
+
+
+
+
